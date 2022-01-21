@@ -1,0 +1,107 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto ;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    background: linear-gradient(to right, rgba(246, 170, 54, 0.74), rgba(243, 36, 248, 0.46));
+}
+
+#task-list {
+    list-style: none inside;
+    padding: 0;
+}
+
+#task-list li {
+    padding: 2vmin;
+    display: flex;
+}
+span {
+    margin: 7px ;
+    padding: 5px
+}
+
+.task {
+    width: 100%;
+    display: inline-block;
+}
+
+.delete-btn {
+    float: right;
+    border: none;
+    background-color: #1e1a1a;
+    padding: 0;
+    color: white;
+    width: 2em;
+    height: 2em;
+    font-family: monospace;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+.delete-btn:active {
+    background-color: orange;
+}
+
+.delete-btn:before {
+    content: "X";
+}
+
+#input-label {
+    text-align: center;
+    display: block;
+}
+
+#input-task, #add-task-button {
+    height: 5vmin;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#add-task-button {
+    display: inline-block;
+    background-color: #316b34;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 20%;
+    transition: background-color .5s;
+    cursor: pointer;
+}
+
+#add-task-button:hover {
+    background-color: #833333;
+}
+
+#input-task {
+    width: 70%;
+    margin-left: 1.5vmin;
+    border: 0;
+}
+
+main, header {
+    margin: 0 auto;
+    width: 80vmin;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: crimson;
+}

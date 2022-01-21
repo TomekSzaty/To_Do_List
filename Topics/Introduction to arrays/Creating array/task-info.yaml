@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: let array = Array[];
+- text: let array = [];
+- text: let array = new Array();
+- text: let array = ();
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16142#comment
+status: Unchecked
+feedback:
+  message: "Failed to connect to server, check the Internet connection \n\nhyperskill.org"
+  time: Thu, 06 Jan 2022 13:20:13 UTC
+record: -1
+selected_options:
+- 1
+- 2

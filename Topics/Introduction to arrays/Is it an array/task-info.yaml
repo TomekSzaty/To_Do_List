@@ -1,0 +1,17 @@
+type: code
+custom_name: Is it an array?
+files:
+- name: main.js
+  visible: true
+  text: |-
+    function checkData(data) {
+
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16150#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #2 of 3. Wrong answer
+  time: Thu, 06 Jan 2022 10:29:46 UTC
+record: -1
